@@ -1,0 +1,83 @@
+---
+layout: default
+title: ForeCite Demo
+---
+
+<form class="mtxl form-horizontal">
+    <div class="form-group">
+        <label class="col-sm-1 control-label">Title</label>
+        <div class="col-sm-11">
+            <textarea class="form-control" rows="1"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-1 control-label">Text</label>
+        <div class="col-sm-11">
+            <textarea class="form-control" rows="6"></textarea>
+        </div>
+    </div>
+</form>
+
+
+<div class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Upload your text</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Here you would be able to upload a title and some text for us to perform our magic on.
+                    Right now though we're asking you to use one of our three example documents to get started
+                </p>
+
+                <div class="tile col-md-12">
+                    <ul class="list-unstyled  text-left">
+                        <li class="mbm col-md-12 example">
+                            <span class="fui-document pull-left"></span>
+                            <input id="example1" type="checkbox" name="example1" value="example1" />
+                            <label for="example1">
+                                Analytical methods for PCB's and organochlorine pesticides in environmental montioring and surveillance: a critical appraisal
+                            </label>
+                        </li>
+                        <li class="mbm col-md-12 example">
+                            <span class="fui-document pull-left"></span>
+                            <input id="example2" type="checkbox" name="example2" value="example2" />
+                            <label for="example2">
+                                Relationships between computer extracted mammographic texture pattern features and BRCA1/2 mutation status: a cross-sectional study
+                            </label>
+                        </li>
+                        <li class="mbm col-md-12 example">
+                            <span class="fui-document pull-left"></span>
+                            <input id="example3" type="checkbox" name="example3" value="example3" />
+                            <label for="example3">
+                                Binding Graphene sheets together using silicone: Graphene/Silicone superlattice
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script>
+    $('.modal').modal();
+    $('.modal li').click(function(){
+
+        $('.modal').modal('hide');
+
+        if($(this).index() === 0){
+            console.log('example1');
+        }
+        if($(this).index() === 1){
+            console.log('example2');
+        }
+        if($(this).index() === 2){
+            console.log('example3');
+        }
+    })
+</script>
