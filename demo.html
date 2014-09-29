@@ -7,19 +7,23 @@ title: ForeCite Demo
     <div class="form-group">
         <label class="col-sm-1 control-label">Title</label>
         <div class="col-sm-11">
-            <textarea class="form-control" rows="1"></textarea>
+            <textarea class="form-control titleToSearch"></textarea>
         </div>
     </div>
     <div class="form-group">
         <label class="col-sm-1 control-label">Text</label>
         <div class="col-sm-11">
-            <textarea class="form-control" rows="6"></textarea>
+            <textarea class="form-control textToSearch" rows="6"></textarea>
         </div>
     </div>
 </form>
+<div class="text-center">
+    <a href="#" class="btn btn-primary btn-wide">Get suggestions</a>
+    <a href="#" class="btn btn-default btn-wide change">Change search</a>
+</div>
 
 
-<div class="modal fade">
+<div class="modal fade suggest">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -37,23 +41,20 @@ title: ForeCite Demo
                         <li class="mbm col-md-12 example">
                             <span class="fui-document pull-left"></span>
                             <input id="example1" type="checkbox" name="example1" value="example1" />
-                            <label for="example1">
-                                Analytical methods for PCB's and organochlorine pesticides in environmental montioring and surveillance: a critical appraisal
-                            </label>
+                            <label for="example1" class="title">Analytical methods for PCB's and organochlorine pesticides in environmental montioring and surveillance: a critical appraisal</label>
+                            <span class="text" style="display: none">Example 1: Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here</span>
                         </li>
                         <li class="mbm col-md-12 example">
                             <span class="fui-document pull-left"></span>
                             <input id="example2" type="checkbox" name="example2" value="example2" />
-                            <label for="example2">
-                                Relationships between computer extracted mammographic texture pattern features and BRCA1/2 mutation status: a cross-sectional study
-                            </label>
+                            <label for="example2" class="title">Relationships between computer extracted mammographic texture pattern features and BRCA1/2 mutation status: a cross-sectional study</label>
+                            <span class="text" style="display: none">Example 2: Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here</span>
                         </li>
                         <li class="mbm col-md-12 example">
                             <span class="fui-document pull-left"></span>
                             <input id="example3" type="checkbox" name="example3" value="example3" />
-                            <label for="example3">
-                                Binding Graphene sheets together using silicone: Graphene/Silicone superlattice
-                            </label>
+                            <label for="example3" class="title">Binding Graphene sheets together using silicone: Graphene/Silicone superlattice</label>
+                            <span class="text" style="display: none">Example 3: Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here Loads of snippet text here</span>
                         </li>
                     </ul>
                 </div>
@@ -64,20 +65,3 @@ title: ForeCite Demo
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<script>
-    $('.modal').modal();
-    $('.modal li').click(function(){
-
-        $('.modal').modal('hide');
-
-        if($(this).index() === 0){
-            console.log('example1');
-        }
-        if($(this).index() === 1){
-            console.log('example2');
-        }
-        if($(this).index() === 2){
-            console.log('example3');
-        }
-    })
-</script>

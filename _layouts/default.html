@@ -16,7 +16,7 @@
         <link href="dist/css/flat-ui.css" rel="stylesheet">
 
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="img/favicon.ico">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
@@ -26,6 +26,20 @@
         <![endif]-->
         <script src="dist/js/vendor/jquery.min.js"></script>
         <script src="dist/js/bootstrap.min.js"></script>
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-55231321-1']);
+            _gaq.push(["_setDomainName", "none"]);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+
+        </script>
     </head>
     <div class="container-fluid col-lg-12">
         <header class="header">
@@ -38,6 +52,51 @@
     <body>
 
         <script src="dist/js/flat-ui.min.js"></script>
+        <script>
+            $('.change').click(function(){
+                $('.modal').modal();
+                $('form').find('.titleToSearch').val('');
+                $('form').find('.textToSearch').val('');
+            });
+            $('.suggest').modal();
+            $('.suggest li').click(function(){
+                var title;
+                var text;
+                var url;
+                $('.modal').modal('hide');
+
+                if($(this).index() === 0){
+
+                    $(this).find(':checkbox').attr('checked', false);
+                    //console.log($(this).find(':checkbox'));
+                    // console.log('example1');
+                    title = $(this).find('.title').text();
+                    text = $(this).find('.text').text();
+                    url = 'example1.html';
+                }
+                if($(this).index() === 1){
+                    $(this).find(':checkbox').attr('checked', false);
+                    //console.log('example2');
+                    title = $(this).find('.title').text();
+                    text = $(this).find('.text').text();
+                    url = 'example2.html';
+                }
+                if($(this).index() === 2){
+                    $(this).find(':checkbox').attr('checked', false);
+                    //console.log('example3');
+                    title = $(this).find('.title').text();
+                    text = $(this).find('.text').text();
+                    url = 'example3.html';
+                }
+                $('form').find('.titleToSearch').val(title);
+                $('form').find('.textToSearch').val(text);
+                $('.btn-primary').attr('href',url);
+            })
+
+            $('.export').click(function(){
+               console.log('not ready yet!');
+            });
+        </script>
 
     </body>
 </html>
