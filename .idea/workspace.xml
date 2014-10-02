@@ -26,16 +26,25 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="50" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="1620">
+            <state line="40" column="0" selection-start="1915" selection-end="1915" vertical-scroll-proportion="-3.375" vertical-offset="519" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="forecite.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/forecite.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="928" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330">
+            <state line="6" column="19" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forecite.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/modules/forecite.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="1" selection-start="1" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -44,61 +53,16 @@
       <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="6955" selection-end="6955" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1095">
+            <state line="21" column="27" selection-start="652" selection-end="652" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/variables.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="40" selection-start="5069" selection-end="5069" vertical-scroll-proportion="0.0" vertical-offset="2188" max-vertical-offset="10890">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buttons.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/modules/buttons.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="39" selection-start="1123" selection-end="1137" vertical-scroll-proportion="0.0" vertical-offset="689" max-vertical-offset="2985">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="type.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/modules/type.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="294" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="3405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example1.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="example1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="94" selection-start="276" selection-end="276" vertical-scroll-proportion="0.15765765" vertical-offset="0" max-vertical-offset="666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive-visibility.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/mixins/responsive-visibility.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="2" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/modules/select.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="0" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="8685">
+            <state line="68" column="32" selection-start="10900" selection-end="10900" vertical-scroll-proportion="-21.25" vertical-offset="510" max-vertical-offset="2055">
               <folding />
             </state>
           </provider>
@@ -114,19 +78,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_site/less/modules/buttons.less" />
         <option value="$PROJECT_DIR$/less/modules/buttons.less" />
         <option value="$PROJECT_DIR$/less/spaces.less" />
         <option value="$PROJECT_DIR$/less/modules/select.less" />
         <option value="$PROJECT_DIR$/less/modules/forms.less" />
-        <option value="$PROJECT_DIR$/less/modules/scaffolding.less" />
         <option value="$PROJECT_DIR$/_site/app/components/bootstrap-switch/src/less/bootstrap3/variables.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
+        <option value="$PROJECT_DIR$/less/modules/scaffolding.less" />
+        <option value="$PROJECT_DIR$/less/flat-ui.less" />
         <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/dist/js/scrollplugin.js" />
+        <option value="$PROJECT_DIR$/dist/js/flat-ui.js" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/example1.html" />
+        <option value="$PROJECT_DIR$/dist/js/forecite.js" />
+        <option value="$PROJECT_DIR$/less/modules/forecite.less" />
       </list>
     </option>
   </component>
@@ -358,13 +325,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1863091" sideWeight="0.76559544" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -373,7 +340,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23440453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -391,43 +358,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/modules/select.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="0" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="8685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/flat-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="1450" max-vertical-offset="1905" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/bootstrap/dist/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/bootstrap/dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="820" column="18" selection-start="23182" selection-end="23186" vertical-scroll-proportion="-5.3076925" vertical-offset="12162" max-vertical-offset="31800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/spaces.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="15" selection-start="2092" selection-end="2092" vertical-scroll-proportion="-111.875" vertical-offset="0" max-vertical-offset="2790" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/modules/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-4.2" vertical-offset="885" max-vertical-offset="4380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/modules/scaffolding.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="19" selection-start="1277" selection-end="1277" vertical-scroll-proportion="-7.6734695" vertical-offset="644" max-vertical-offset="1125" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/modules/select.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="0" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="8685">
@@ -463,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="928" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330">
@@ -477,16 +400,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/flat-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="3925" selection-end="3925" vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1905">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/scrollplugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="301" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/flat-ui.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="24" selection-start="916" selection-end="916" vertical-scroll-proportion="-6.5102043" vertical-offset="146" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/modules/scaffolding.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="0" selection-end="1280" vertical-scroll-proportion="0.90061164" vertical-offset="476" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/dist/css/flat-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="393" column="1" selection-start="8175" selection-end="8175" vertical-scroll-proportion="0.20617111" vertical-offset="5748" max-vertical-offset="92220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="6955" selection-end="6955" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1095">
+        <state line="21" column="27" selection-start="652" selection-end="652" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1915" selection-end="1915" vertical-scroll-proportion="-3.375" vertical-offset="519" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="94" selection-start="276" selection-end="276" vertical-scroll-proportion="0.15765765" vertical-offset="0" max-vertical-offset="666">
+        <state line="68" column="32" selection-start="10900" selection-end="10900" vertical-scroll-proportion="-21.25" vertical-offset="510" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/forecite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/modules/forecite.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <folding />
         </state>
       </provider>

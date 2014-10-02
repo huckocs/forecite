@@ -392,7 +392,7 @@ a:focus {
 .header {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   padding: 10px 0;
-  padding-left: 17.7%;
+  padding-left: 7%;
 }
 h1,
 h2,
@@ -5664,6 +5664,39 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
 .tile-title {
   font-size: 20px;
   margin: 0;
+}
+.suggestions {
+  margin-top: 80px;
+}
+.is-sticky {
+  right: 136px;
+  top: 0;
+  bottom: 0;
+  margin-top: 0;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 27%;
+}
+.meta {
+  display: block;
+  margin-top: 4px;
+}
+.meta-title {
+  font-size: 15px;
+}
+.meta-info {
+  font-size: 12px;
+  font-weight: 200;
+  font-style: italic;
+}
+.bibliography {
+  padding: 7px 0;
+  margin: 7px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.citation {
+  color: #ff6622;
 }
 .pallete-item {
   width: 140px;
