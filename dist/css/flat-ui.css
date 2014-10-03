@@ -351,6 +351,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.72222;
+  font-weight: 300;
   color: #34495e;
   background-color: #ffffff;
 }
@@ -5665,7 +5666,7 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   font-size: 20px;
   margin: 0;
 }
-.suggestions {
+.suggestionSidebar {
   margin-top: 80px;
 }
 .is-sticky {
@@ -5697,6 +5698,48 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
 }
 .citation {
   color: #ff6622;
+  cursor: pointer;
+}
+.numberRecs {
+  display: none;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.citation_holder {
+  border: 1px solid #eee;
+  background: #f6f6f6;
+  display: none;
+  padding: 14px;
+  font-style: italic;
+  margin: 14px 0 14px -20px;
+}
+.suggestion .citing_text {
+  display: none !important;
+}
+.citing_article {
+  cursor: pointer;
+  padding-left: 2%;
+}
+.citing_article:hover,
+.shown_suggestion {
+  border-left: 4px solid #eee;
+  margin-left: -1%;
+}
+.number_of_cites,
+.author,
+.pub_year {
+  font-style: italics;
+  font-weight: 300;
+  font-size: 13px;
+}
+.citing_text {
+  border-left: 2px solid #ff6622;
+  margin-left: -6px;
+  padding-left: 10px;
+}
+.citing_text:last-child {
+  margin-bottom: 0;
 }
 .pallete-item {
   width: 140px;

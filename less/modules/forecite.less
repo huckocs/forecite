@@ -1,4 +1,4 @@
-.suggestions{
+.suggestionSidebar{
   margin-top: 80px;
 }
 .is-sticky {
@@ -11,8 +11,6 @@
   overflow-x:hidden;
   width:27%;
 }
-
-
 .meta {
   display: block;
   margin-top: 4px;
@@ -36,4 +34,53 @@
 
 .citation {
   color: @orange;
+  cursor: pointer;
+}
+
+.numberRecs{
+  display: none;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.citation_holder {
+  border: 1px solid #eee;
+  background: #f6f6f6;
+  display: none;
+  padding: 14px;
+  font-style: italic;
+  margin:14px 0 14px -20px;
+}
+
+.suggestion .citing_text {
+  display: none !important;
+}
+
+.citing_article{
+  cursor:pointer;
+  padding-left: 2%;
+}
+
+.citing_article:hover,
+.shown_suggestion {
+  border-left: 4px solid #eee;
+  margin-left: -1%;
+}
+
+.number_of_cites,
+.author,
+.pub_year {
+  font-style: italics;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.citing_text {
+  border-left: 2px solid @orange;
+  margin-left: -6px;
+  padding-left: 10px;
+  &:last-child{
+    margin-bottom:0;
+  }
 }
