@@ -5,9 +5,8 @@ title: ForeCite Demo - Example 1
 
 <div class="col-md-8 mtl"><strong>72</strong> target sentences identified. <strong>341</strong> citations suggested.</div>
 
-<div class="col-md-4 mtl"><a href="#" onClick="_gaq.push(['_trackEvent', 'Export', 'ExportList', 'User wanted to export!']);" class="export">Export suggestions</a></div>
+<div class="col-md-4 mtl"><span class="export">Export suggestions:</span> <a href="#" onClick="_gaq.push(['_trackEvent', 'Export', 'ExportList', 'User wanted to export!']);" class="export">Checked</a> | <a href="#" onClick="_gaq.push(['_trackEvent', 'Export', 'ExportList', 'User wanted to export!']);" class="export">All</a></div>
 <div class="col-md-12"><hr></div>
-
 <div class="col-md-8">
     <div class="text_analysis" example-no="1">
         <div id="Sec1">
@@ -64,6 +63,35 @@ title: ForeCite Demo - Example 1
                 </p>
             </div>
         </div>
+        <div id="Sec5" class="Section1 RenderAsSection1">
+            <h2 class="Heading">Commonly used analytical methods for PCB/OCP monitoring and surveillance</h2>
+            <div id="Sec6" class="Section2 RenderAsSection2">
+                <h3 class="Heading">Overview</h3>
+
+                <p>
+                    Not all of these sources provide analytical SOPs for all environmental media. Alternatively, numerous books are available that summarize methods. For example, others <span id="#CR24">summarized US EPA methods for PCBs and OCP in sediment and biological materials</span>. Wells and Hess <span id="#CR25">, have reviewed and recommended methods for the separation, isolation and recoveries of OCPs and PCBs from soils, sediment and biological matrices</span>. <span id="#CR27" class="citation">There is also a useful overview of current analytical methodology for OCP/PCBs.</span>
+                </p>
+                <p>
+                    The UNEP POPs workshop on global monitoring (UNEP 2003) noted that, given the broad range of technical expertise for analysis of PCBs and OCPs, as evident from the extensive international participation in interlaboratory calibration projects for these compounds, no single, detailed, step-by-step analytical method can be recommended. Instead laboratories would use methods best-suited to their situation and take part in international interlaboratory comparisons to verify their work. This performance-based approach has also been adopted by the US EPA in an effort to introduce flexibility in conducting environmental monitoring. <span id="#CR28" class="citation">This approach also encourages analytical innovation by allowing the use of new and alternate methods provided that predetermined performance criteria are met</span>.
+                </p>
+            </div>
+            <div id="Sec7" class="Section2 RenderAsSection2">
+                <h3 class="Heading">Sampling</h3>
+
+                <p>
+                    Acquisition of suitably representative samples is fundamental to any environmental measurement program and should not be overlooked. <span id="#CR29-30" class="citaiton">Contamination during field collection can occur, particularly from PCBs in electrical equipment and building products (e.g., marine paints, joint sealants)</span>, or due to the ongoing use of OCPs. “Clean” techniques need to be adopted, such as <span id="#CR22-20-23" class="citation">the use of special clothing and disposable gloves for sampling, sealed shipping containers, and field blanks. ICES, NOAA and OSPAR </span> provide useful guidelines for sampling of fish/crustaceans, mussels, and sediment, respectively. There is also <span id="#CR31" class="citation"> a detailed overview of sampling methods for lakes and river sediments.</span>
+                </p>
+                <p>
+                    Sample containers should be supplied by the laboratory and checked for contamination. Appropriate sample containers for biological tissue that is to be analyzed for POPs are glass jars or glass vials with screw caps. Screw caps should be lined with solvent-rinsed aluminum foil or Teflon cap inserts. Clear polyethylene bags, and polypropylene jars, are also appropriate for temporary storage but may not be suitable for long-term storage because of the possibility of migration of plasticizers (such as phthalates) into the tissue, especially for samples with high lipid contents. <span id="#CR25" class="citation">Freezing and storage of multiple small samples suitable for analysis, rather than larger masses, is recommended to avoid multiple freezing and thawing of tissue </span> and to reduce sample handling, which in turn reduces the potential for contamination. Samples can be wrapped in aluminum foil and then inserted into plastic bags.
+                </p>
+                <p>
+                    Blood samples should be collected in ethylenediamine tetraacetic acid (EDTA) vials or vacutainers, centrifuged, and the plasma transferred to vials washed with hexane. Field blanks, consisting of sample containers taken to the lab and returned with other samples, should be included.
+                </p>
+                <p>
+                    <span id="#CR31" class="citation">Air sampling for POPs is normally conducted using polyurethane foam (PUF) or XAD resin </span>. From 300 to 10,000 m<sup>3</sup> of air are passed through the sampling medium. Sampling media are then transferred to clean, wide-mouthed glass jars, sealed and stored at 4 °C prior to extraction. Some sampling cartridges can be sealed and transported and the sampling media transferred to Soxhlet or pressurized liquid extraction systems in a clean laboratory environment.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="col-md-4 suggestionSidebar">
@@ -76,3 +104,19 @@ title: ForeCite Demo - Example 1
 <div class="citation_holder">
 
 </div>
+
+<div class="modal fade exportFail">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Oops</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Sorry this feature isn't quite ready yet, but it's good to know you'd want to use it!
+                </p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
