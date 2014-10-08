@@ -109,6 +109,20 @@ $(document).ready(function(){
     $('.exportFail').modal();
   });
 
+  var citingCount;
+  $.ajax({
+    url : suggestionPage+i+".html",
+    success : function (data) {
+      var mydata = $(data);
+      citingCount = mydata.find('.citing_text').length;
+      $('#citingCount').text(citingCount);
+      console.log(mydata.find('.citing_text').length,citingCount);
+    }
+  });
+
+  var sentanceCount = $('.text_analysis').find(citation).length;
+  $('#sentanceCount').text(sentanceCount)
+
 });
 
 

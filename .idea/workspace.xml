@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="forecite.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="forecite.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/js/forecite.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="7" selection-start="3267" selection-end="3267" vertical-scroll-proportion="2.2588933" vertical-offset="267" max-vertical-offset="2220">
+            <state line="117" column="42" selection-start="3733" selection-end="3733" vertical-scroll-proportion="-11.384615" vertical-offset="1459" max-vertical-offset="2430">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suggestions1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suggestions1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="476" column="29" selection-start="23564" selection-end="23575" vertical-scroll-proportion="-10.791667" vertical-offset="6881" max-vertical-offset="8580">
               <folding />
             </state>
           </provider>
@@ -35,7 +44,25 @@
       <file leaf-file-name="example1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="49" selection-start="691" selection-end="691" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1905">
+            <state line="5" column="91" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1905">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example2.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="91" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="53" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1740">
               <folding />
             </state>
           </provider>
@@ -67,15 +94,15 @@
         <option value="$PROJECT_DIR$/example3.html" />
         <option value="$PROJECT_DIR$/dist/js/fixedsticky.js" />
         <option value="$PROJECT_DIR$/suggestions2.html" />
-        <option value="$PROJECT_DIR$/example2.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/less/modules/scaffolding.less" />
-        <option value="$PROJECT_DIR$/example1.html" />
         <option value="$PROJECT_DIR$/less/modules/forecite.less" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/dist/js/forecite.js" />
+        <option value="$PROJECT_DIR$/example1.html" />
+        <option value="$PROJECT_DIR$/example2.html" />
       </list>
     </option>
   </component>
@@ -340,18 +367,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/modules/todo-list.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/modules/tooltip.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/modules/switch.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1695" max-vertical-offset="3150">
@@ -386,13 +401,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suggestions1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="468" column="40" selection-start="23215" selection-end="23223" vertical-scroll-proportion="0.22351234" vertical-offset="6866" max-vertical-offset="8580">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -433,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="691" selection-end="691" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/modules/forecite.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="18" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-4.285714" vertical-offset="1560" max-vertical-offset="3585">
@@ -447,9 +448,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="53" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suggestions1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="476" column="29" selection-start="23564" selection-end="23575" vertical-scroll-proportion="-10.791667" vertical-offset="6881" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/forecite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="7" selection-start="3267" selection-end="3267" vertical-scroll-proportion="2.2588933" vertical-offset="267" max-vertical-offset="2220">
+        <state line="117" column="42" selection-start="3733" selection-end="3733" vertical-scroll-proportion="-11.384615" vertical-offset="1459" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="91" selection-start="149" selection-end="149" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="91" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
