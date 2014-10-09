@@ -5799,11 +5799,6 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   font-weight: 300;
   font-size: 13px;
 }
-.citing_text {
-  border-left: 2px solid #ff6622;
-  margin-left: -6px;
-  padding-left: 10px;
-}
 .citing_text:last-child {
   margin-bottom: 0;
 }
@@ -5834,7 +5829,6 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   text-decoration: underline;
 }
 .meter {
-  display: none;
   overflow: hidden;
   background: #ebedef;
   border-radius: 32px;
